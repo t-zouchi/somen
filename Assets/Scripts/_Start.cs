@@ -22,4 +22,9 @@ public class _Start : MonoBehaviour {
     SceneManager.LoadScene("Select");
   }
 
+  public void loadStage1()
+  {
+    SceneManager.LoadScene("Stage1");
+  }
+
 }
