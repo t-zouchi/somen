@@ -16,4 +16,10 @@ public class _Start : MonoBehaviour {
     rb.transform.SetParent(canvas.transform, false);
     Destroy(stoper);
   }
+
+  public void gameStart()
+  {
+    SceneManager.LoadScene("Select");
+  }
+
 }
