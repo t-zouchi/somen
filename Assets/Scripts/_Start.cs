@@ -27,4 +27,29 @@ public class _Start : MonoBehaviour {
     SceneManager.LoadScene("Stage1");
   }
 
+  public void loadStage2()
+  {
+    SceneManager.LoadScene("Stage2");
+  }
+
+  public void loadStage3()
+  {
+    SceneManager.LoadScene("Stage3");
+  }
+
+  public void loadStage4()
+  {
+    SceneManager.LoadScene("Stage4");
+  }
+
+  public void loadStage5()
+  {
+    SceneManager.LoadScene("Stage5");
+  }
+
+  public void loadStage6()
+  {
+    SceneManager.LoadScene("Stage6");
+  }
+  
 }
